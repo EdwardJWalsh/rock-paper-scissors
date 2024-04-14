@@ -2,10 +2,6 @@ html {min-height: 100%;
     position:relative;
 }
 
-header {
-    text-align:center;
-    height:50px
-}
 footer {
     position:absolute;
     width:100%;
@@ -33,4 +29,5 @@ footer {
     margin-right:auto;
     margin-top:1%;
     text-align:center;
+    background-color: greenyellow;
 }
