@@ -5,10 +5,17 @@ button.addEventListener('click',() =>{
     const result=
     playGame (button.id, computerPlay());
     resultElement.textContent = result;
+
 });
 });
 
 const resultElement = document.getElementById("result");
+
+let playerScore = 0;
+let computerScore = 0;
+
+const playerScoreEl = document.getElementById("user-score");
+const computerScoreEl = document.getElementById("computer-score");
 
 function computerPlay() {
     const choices = ["rock", "paper", "scissors"];
@@ -26,8 +33,13 @@ function playGame(playerSelection, computerSelection) {
         computerSelection === "rock") ||
         (playerSelection === "scissors" && 
         computerSelection === "paper")
-    ) {return "You win! " + playerSelection + " beats " + computerSelection;}
+    ) {
+        playerScore++;
+        playerScoreEl.textContent = playerScore;
+        return "You win! " + playerSelection + " beats " + computerSelection;}
       else {
+        computerScore++;
+        computerScoreEl.textContent = computerScore;
         return "You lose! " + computerSelection + " beats " + playerSelection;
     }
 
