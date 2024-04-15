@@ -4,9 +4,11 @@ buttons.forEach((button) => {
 button.addEventListener('click',() =>{
     const result=
     playGame (button.id, computerPlay());
-    console.log(result);
+    resultElement.textContent = result;
 });
 });
+
+const resultElement = document.getElementById("result");
 
 function computerPlay() {
     const choices = ["rock", "paper", "scissors"];
