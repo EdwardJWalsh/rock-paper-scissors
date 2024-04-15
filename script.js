@@ -9,11 +9,10 @@ button.addEventListener('click',() =>{
 });
 });
 
-const resultElement = document.getElementById("result");
-
 let playerScore = 0;
 let computerScore = 0;
 
+const resultElement = document.getElementById("result");
 const playerScoreEl = document.getElementById("user-score");
 const computerScoreEl = document.getElementById("computer-score");
 

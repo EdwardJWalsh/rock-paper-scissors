@@ -2,11 +2,15 @@ html {min-height: 100%;
     position:relative;
 }
 
+body{
+    background-color: cornsilk;
+}
+
 h1{
     text-align: center;
     padding-top: 50px;
-}
-
+}    
+    
 body {
     background-color: rgb(240, 240, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -20,6 +24,7 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    font-weight: 1000px;
 }
 
 .option {
@@ -32,18 +37,24 @@ p {
     background-position: center;
     cursor: pointer;
     margin: 0 10px;
+    color: blue;
+    font-size:large;
+    font-weight: 900;
 }
 
 #rock {
     background-image: url("assets/fadilah-im-sYEyCLSWSY4-unsplash.jpg");
+    text-transform: uppercase;
 }
 
 #paper {
     background-image: url("assets/fadilah-im-AnYg7fO8-m8-unsplash.jpg");
+    text-transform: uppercase;
 }
 
 #scissors {
     background-image: url("assets/fadilah-im-2HkXcDPnGh4-unsplash.jpg");
+    text-transform: uppercase;
 }
 
 #user-score {
