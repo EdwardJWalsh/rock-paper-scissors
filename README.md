@@ -72,6 +72,18 @@ The page was deplied through GitHub Pages. The steps to deploy are as follows:
 
 [The live link can be found here](https://edwardjwalsh.github.io/rock-paper-scissors/)
 
+# Credits
+
+* The idea for this project came from content available on the Code Institute LMS. I would not have been able to create this project were it not for the content in the current and previous modules.
+* As well as the learning content available I also got further help from the following Youtube channels:
+ (https://www.youtube.com/@Coderama)
+ (https://www.youtube.com/@DivyaThakur)
+ (https://www.youtube.com/@documentwrites)
+
+ Also, a huge thank you to my classmates on Slack who are always on hand for any queries I may have.
+
+
+
 
 
 
