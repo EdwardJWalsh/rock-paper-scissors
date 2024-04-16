@@ -6,7 +6,7 @@ This website is for a simple Rock Paper Scissors game implemented in JavaScript,
 
 This is how the site looks on various screen sizes:
 
-<img src="assets/am_i_responsive.png>
+<img src="assets/am_i_responsive.png">
 
 ## Features 
 
